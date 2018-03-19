@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Star Wars RPG</title>
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Added a link to Bootstrap-->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="jumbotron">
+    <!-- <h1 class="text-center">Star Wars Rpg</h1> -->
+
+  </div>
+
+  <div class="container">
+
+    <div class="row mb-2" id="row-1">
+      <div class="card w-50">
+        <h3 class="card-header">Characters</h3>
+        <div class="card-body " id="dvSource">
+          <button id="luke" class="btn btn-default btn-choice" value="luke">
+            <p class="p-text">Luke</p>
+            <img src="assets/imgs/luke.jpg" width="100px" height="80px">
+            <p class="p-text" id="luke-val" value="luke-val">100</p>
+          </button>
+          <button id="obi" class="btn btn-default btn-choice" value="obi">
+            <p class="p-text">Obi</p>
+            <img src="assets/imgs/obi.jpg" width="100px" height="80px">
+            <p class="p-text" id="obi-val" value="obi-val">120</p>
+          </button>
+          <button id="maul" class="btn btn-default btn-choice" value="maul">
+           <p class="p-text">DMaul</p>
+            <img src="assets/imgs/Darth-maul.jpg" width="100px" height="80px">
+            <p class="p-text" id="maul-val" value="maul-val">140</p>
+          </button>
+          <button id="sid" class="btn btn-default btn-choice" value="sid">
+            <p class="p-text">DSidious</p>
+            <img src="assets/imgs/Darth-Sidious.jpg" width="100px" height="80px">
+            <p class="p-text" id="sid-val" value="sid-val">150</p>
+          </button>
+        </div>
+      </div>
+      <div class="card w-50 enemyClass">
+          <h3 class="card-header">Enemies Available</h3>
+          <div class="card-body text-center" id="enemyDiv">
+  
+          </div>
+        </div>
+    </div>
+    <div class="row mb-2">
+      <div class="card w-50">
+        <h3 class="card-header">Your Character</h3>
+        <div class="card-body text-center activeClass" id="selectChar">
+
+        </div>
+      </div>
+      <div class="card w-50">
+        <h3 class="card-header defendClass">Your Defender</h3>
+        <div class="card-body text-center" id="defendChar">
+
+        </div>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="card w-50">
+        <h3 class="card-header">Attack</h3>
+        <div class="card-body">
+          <button id="attack" class="btn btn-danger btn-sm btn-choice" value="attack">
+            <h1>Attack</h1>
+          </button>
+        </div>
+      </div>
+      <div class="card w-50">
+          <h3 class="card-header">Result</h3>
+          <div class="card-body text-center">
+            <h1 id="result"></h1>
+          </div>
+        </div>
+    </div>
+
+    <div class="row">
+     
+    </div>
+
+  </div>
+
+
+
+ <script src="assets/javascript/game.js">
+  </script>
+</body>
+
+</html>

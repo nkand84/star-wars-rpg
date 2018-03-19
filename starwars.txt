@@ -1,0 +1,29 @@
+A B C D
+
+A = 140
+B = 120
+C = 150 
+D = 100
+
+
+CounterAttack A - 30
+CounterAttack B - 5
+CounterAttack C - 10
+CounterAttack D - 15
+
+GAME
+
+B (HP)
+120 - 15(d's cp) - 15 -15
+
+D (HP)
+100 - 5 (b's cp) - 10 -15 - 20 -25
+
+Attack power - 5
+CounterAttack power -15
+
+
+
+
+
+
